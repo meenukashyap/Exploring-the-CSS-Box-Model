@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+height:120px;
+
+display:flex;
+border:1px solid red;
+        }
+        .boxs:nth-child(1){
+height:100px;
+width:200px;
+padding:10px;
+margin:10px;
+background-color: aqua;
+box-sizing: content-box;
+
+        }
+                .boxs:nth-child(2){
+height:120px;
+width:320px;
+padding:20px;
+margin:20px;
+background-color:blue;
+box-sizing: border-box;
+/* border:1px solid red; */
+        }
+                .boxs:nth-child(3){
+height:140px;
+width:440px;
+padding:40px;
+margin:40px;
+background-color:blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="boxs">Box 1</div>
+        <div class="boxs">Box 2</div>
+        <div class="boxs">Box 3</div>
+    </div>
+</body>
+</html>
